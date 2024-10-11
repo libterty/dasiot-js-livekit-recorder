@@ -3,7 +3,7 @@ import { RemoteTrackPublication, Track } from '@livekit/rtc-node';
 import { RecorderConfig } from '../utils/config';
 import { EgressStatus } from 'livekit-server-sdk/dist/proto/livekit_egress';
 
-const MAX_RECORDING_DURATION = 1 * 60 * 1000; // 10 minutes in milliseconds
+const MAX_RECORDING_DURATION = 10 * 60 * 1000; // 10 minutes in milliseconds
 const OVERLAP_DURATION = 10 * 1000; // 10 seconds overlap in milliseconds
 
 export class TrackRecorder {
